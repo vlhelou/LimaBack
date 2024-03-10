@@ -8,7 +8,7 @@ app.use(express.urlencoded({
 
 
 app.get('/', (req,res)=>{
-    res.json({branch:'main'});
+    res.json({branch:'homolog'});
 });
 
 app.listen(port,()=>{
